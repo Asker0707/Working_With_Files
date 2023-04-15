@@ -92,7 +92,7 @@ if text1 or text2 or text3 is None:
                 f_total.write('\n')
         elif len(file1) > len(file3) > len(file2) or len(file3) > len(file1) and len(file3) < len(
                     file2):
-                f_total.write(path3 + '\n')
+                f_total.write(text3 + '\n')
                 f_total.write(str(len(file3)) + '\n')
                 f_total.writelines(file3)
                 f_total.write('\n')
